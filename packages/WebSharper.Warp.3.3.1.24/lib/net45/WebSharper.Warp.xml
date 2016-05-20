@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="utf-8"?>
+<doc>
+<assembly><name>WebSharper.Warp</name></assembly>
+<members>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="P:WebSharper.Warp.Url">
+<summary>
+ Get the URL on which the Warp application is listening.
+</summary>
+</member>
+<member name="M:WebSharper.Warp.Text(System.String)">
+<summary>
+ Creates a Warp single page application (SPA) that responds with the given text.
+</summary>
+</member>
+<member name="M:WebSharper.Warp.Stop">
+<summary>
+ Stop the running Warp application.
+</summary>
+</member>
+<member name="M:WebSharper.Warp.RunAndWaitForInput``1(WebSharper.Sitelets.Sitelet{``0},Microsoft.FSharp.Core.FSharpOption{System.Boolean},Microsoft.FSharp.Core.FSharpOption{System.String},Microsoft.FSharp.Core.FSharpOption{System.String},Microsoft.FSharp.Core.FSharpOption{System.Boolean},Microsoft.FSharp.Core.FSharpOption{System.Reflection.Assembly})">
+<summary>
+ Runs the Warp application and waits for standard input.
+</summary>
+</member>
+<member name="M:WebSharper.Warp.Run``1(WebSharper.Sitelets.Sitelet{``0},Microsoft.FSharp.Core.FSharpOption{System.Boolean},Microsoft.FSharp.Core.FSharpOption{System.String},Microsoft.FSharp.Core.FSharpOption{System.String},Microsoft.FSharp.Core.FSharpOption{System.Boolean},Microsoft.FSharp.Core.FSharpOption{System.Reflection.Assembly})">
+<summary>
+ Runs the Warp application.
+</summary>
+</member>
+<member name="M:WebSharper.Warp.Page``2(Microsoft.FSharp.Core.FSharpOption{``0},Microsoft.FSharp.Core.FSharpOption{``1},Microsoft.FSharp.Core.FSharpOption{System.String},Microsoft.FSharp.Core.FSharpOption{System.String})">
+<summary>
+ Creates an HTML page response.
+</summary>
+</member>
+<member name="">
+
+</member>
+<member name="M:WebSharper.Warp.CreateSPA(Microsoft.FSharp.Core.FSharpFunc{WebSharper.Sitelets.Context{WebSharper.SPA.Endpoints},WebSharper.Sitelets.Page})">
+<summary>
+ Creates a Warp single page application (SPA).
+</summary>
+</member>
+<member name="M:WebSharper.Warp.CreateSPA(Microsoft.FSharp.Core.FSharpFunc{WebSharper.Sitelets.Context{WebSharper.SPA.Endpoints},WebSharper.Sitelets.Content{WebSharper.SPA.Endpoints}})">
+<summary>
+ Creates a Warp single page application (SPA). Use Warp.Page() to create the returned page.
+</summary>
+</member>
+<member name="M:WebSharper.Warp.CreateSPA``1(Microsoft.FSharp.Core.FSharpFunc{WebSharper.Sitelets.Context{WebSharper.SPA.Endpoints},``0})">
+<summary>
+ Creates a Warp single page application (SPA) based on the body of that single page.
+</summary>
+</member>
+<member name="M:WebSharper.Warp.CreateApplication``1(Microsoft.FSharp.Core.FSharpFunc{WebSharper.Sitelets.Context{``0},Microsoft.FSharp.Core.FSharpFunc{``0,WebSharper.Sitelets.Page}})">
+<summary>
+ Creates a Warp application based on an Action-&gt;Page mapping.
+</summary>
+</member>
+<member name="M:WebSharper.Warp.CreateApplication``1(Microsoft.FSharp.Core.FSharpFunc{WebSharper.Sitelets.Context{``0},Microsoft.FSharp.Core.FSharpFunc{``0,WebSharper.Sitelets.Content{``0}}})">
+<summary>
+ Creates a Warp application based on an Action-&gt;Content mapping.
+</summary>
+</member>
+<member name="">
+
+</member>
+<member name="T:WebSharper.Warp">
+<summary>
+ Utilities to work with Warp applications.
+</summary>
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="M:WebSharper.Owin.WarpMiddleware`1.Invoke(System.Collections.Generic.IDictionary{System.String,System.Object})">
+<summary>
+ Invokes the Warp middleware with the provided environment dictionary.
+</summary>
+</member>
+<member name="">
+
+</member>
+<member name="T:WebSharper.Owin.WarpMiddleware`1">
+<summary>
+ Warp OWIN middleware.
+ next: The next OWIN middleware to run, if any.
+ sitelet: The Warp application to run.
+ options: Options that instruct the middleware how to run and where to look for files.
+</summary>
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="T:WebSharper.Owin.WarpOptions`1">
+<summary>
+ Warp OWIN middleware options.
+</summary>
+</member>
+<member name="M:WebSharper.Owin.UseWarp``1(Owin.IAppBuilder,WebSharper.Sitelets.Sitelet{``0},WebSharper.Owin.WarpOptions{``0})">
+<summary>
+ Adds the Warp middleware to an Owin.IAppBuilder pipeline.
+</summary>
+</member>
+<member name="T:WebSharper.Owin">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="T:WebSharper.Compilation">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="T:WebSharper.SPA">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="T:WebSharper.Extensions">
+
+</member>
+</members>
+</doc>

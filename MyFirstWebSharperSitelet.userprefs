@@ -1,0 +1,12 @@
+﻿<Properties StartupItem="MyFirstWebSharperSitelet/MyFirstWebSharperSitelet.fsproj">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|x86" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="MyFirstWebSharperSitelet/Program.fs">
+    <Files>
+      <File FileName="MyFirstWebSharperSitelet/Program.fs" Line="21" Column="9" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
